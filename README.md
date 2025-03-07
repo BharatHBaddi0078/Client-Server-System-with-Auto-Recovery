@@ -85,6 +85,4 @@ This project implements a synchronized client-server model using Python sockets.
   kubectl logs <pod-name>
   ```
 
-## License
-This project is open-source and available under the MIT License.
 
