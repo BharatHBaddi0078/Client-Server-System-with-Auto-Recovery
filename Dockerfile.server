@@ -1,0 +1,15 @@
+# Use Python base image
+FROM python:3.12
+
+# Set working directory
+WORKDIR /app
+
+# Copy server script
+COPY server.py /app
+
+# Expose port
+EXPOSE 5000
+
+# Run the server
+CMD ["python", "server.py"]
+

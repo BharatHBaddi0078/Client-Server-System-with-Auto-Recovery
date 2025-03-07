@@ -1,0 +1,11 @@
+# Use Python base image
+FROM python:3.12
+
+# Set working directory
+WORKDIR /app
+
+# Copy client script
+COPY client.py /app
+
+# Run the client
+CMD ["python", "client.py"]
